@@ -6,13 +6,14 @@ public static void main(String[] args){
 	String spell = terminalInput.nextLine();
 	if(spell.equals("E") || spell.equals("e")){
 		System.out.println("You've disarmed Voldemort! nice");
-}	
+		return;
+	}	
  	if(spell.equals("L") || spell.equals("l")){
 		System.out.println("You just turned your wand into a flashlight! sucks for you");
-}
+	}
 	else{
 	System.out.println("you suck at this");
-}
+	}
 }
 	
 
